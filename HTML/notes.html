@@ -1,0 +1,102 @@
+<!-- 
+    Abdullah Alsaaedi 1936031
+    Khalid Alghamdi 2037040
+    CS1
+    2023/11/5
+ -->
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="../CSS/notes.css">
+        <link rel="stylesheet" href="../CSS/styles.css">
+        <link rel="stylesheet" href="../CSS/print.css" media="print">
+        <title>MyTodos</title>
+
+    </head>
+
+    <body>
+
+       <!-- //////// navigation //////// -->
+
+       <header>
+
+        <h1 class="heading"><a class="heading-link" href="index.html">MyTodos</a></h1>
+
+        <!-- for the navigation links -->
+        <nav>
+            <!-- unorder list -->
+            <ul>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="notes.html">Notes</a></li>
+                <li><a href="inbox.html">Inbox</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="media.html">Why MyTodos?</a></li>
+                <li><a href="settings.html">Settings</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+        <!-- container of all the elements -->
+        <div class="container" >
+
+            
+            <!-- table that hold all the notes -->
+            <table>
+                <caption ><h1 style="text-align: left;">List of all notes</h1></caption>
+                <tr>
+                    <th>note<br>number</th>
+                    <th colspan="2">the note</th>
+                    <th >note date</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <td colspan="2">This is a sample note.</td>
+                    <td>11/4/2023</td>
+                </tr>
+                <tr>
+                    <th>2</th>
+                    <td colspan="2">Another example note.</td>
+                    <td rowspan="2">11/5/2023</td>
+                </tr>
+                <tr>
+                    <th>3</th>
+                    <td colspan="2">Another example note.</td>
+                </tr>
+                <tr>
+                    <th>4</th>
+                    <td colspan="2">Another example note.</td>
+                    <td>11/6/2023</td>
+                </tr>
+                <tr>
+                    <th>5</th>
+                    <td colspan="2">Another example note.</td>
+                    <td>11/7/2023</td>
+                </tr>
+                <tr>
+                    <th>6</th>
+                    <td colspan="2">Another example note.</td>
+                    <td rowspan="2">11/8/2023</td>
+                </tr>
+                <tr>
+                    <th>7</th>
+                    <td colspan="2">Another example note.</td>
+                </tr>
+            </table>
+            
+
+            <!-- container for notes textarea -->
+            <div class="notes">
+                <h2>Add a Note</h2>
+                <textarea id="note-text" rows="4" cols="50"></textarea><br>
+                <button class="add-button">Save</button>
+            </div>
+            
+
+        </div>
+    </body>
+
+</html>
